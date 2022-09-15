@@ -18,6 +18,7 @@
             android:layout_height="match_parent"
             android:layout_weight="77"
             android:inflatedId="@+id/vs_left_inflated"
+            tools:layout="@layout/layout_game_right"
             tools:visibility="visible" />
 
         <ViewStub
@@ -26,6 +27,7 @@
             android:layout_height="match_parent"
             android:layout_weight="23"
             android:inflatedId="@+id/vs_right_inflated"
+            tools:layout="@layout/layout_game_right"
             tools:visibility="visible" />
 
     </LinearLayout>

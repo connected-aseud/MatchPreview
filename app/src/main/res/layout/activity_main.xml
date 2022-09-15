@@ -20,5 +20,13 @@
         android:id="@+id/layout_game_3"
         layout="@layout/layout_game_card" />
 
+    <include
+        android:id="@+id/layout_game_4"
+        layout="@layout/layout_game_card" />
+
+    <include
+        android:id="@+id/layout_game_5"
+        layout="@layout/layout_game_card" />
+
 
 </LinearLayout>
